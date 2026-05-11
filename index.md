@@ -1,6 +1,6 @@
 # VRTogether Privacy Policy
 
-**Last Updated: May 5, 2026**
+**Last Updated: May 11, 2026**
 
 ## Scope
 
@@ -12,21 +12,23 @@ RalphVR Inc., a Delaware corporation doing business as VRTogether, is the data c
 
 ## Information We Collect
 
-We collect information in three ways: information you provide to us directly, information collected automatically while you play, and information provided to us by the distribution or identity platform on which you are running the Games.
+We collect information in four ways: information you provide to us directly, information collected automatically by analytics while you play, information provided to us by the distribution or identity platform on which you are running the Games, and information collected by in-game features such as voice communication and screen capture.
 
 ### Information You Provide
 
 We collect personally identifiable information that you voluntarily submit to us, including but not limited to your name, email address, mailing address, and phone number, when you create an account, fill out a form, contact us by email, sign up for our newsletter, or use other services, features, or resources within the Games or on our website.
 
-### Information Collected Automatically
+### Information Collected Automatically by Analytics
 
-When you play a VRTogether Game, we use an analytics engine to collect information about your hardware, the manner in which you play, the levels and content you have completed, the time at which you play, your IP address, and similar gameplay metrics. This information is collected and processed in aggregate, anonymized form and is not used to identify you personally.
+When you play a VRTogether Game, we use **Unity Gaming Services Analytics**, operated by Unity Technologies, to collect information about your hardware (device model and operating system), the manner in which you play, the levels and content you have completed, the time at which you play, your IP address (used by Unity to derive your country and then discarded), and similar gameplay metrics. Unity Gaming Services Analytics assigns a persistent Unity Player ID that allows us to recognize returning sessions in aggregate. We use this information in aggregated, anonymized form to understand how Players use the Games as a group; we do not use it to identify you personally.
+
+Where required by applicable law (including the GDPR in the European Economic Area, the United Kingdom, and Switzerland), we request your consent before initiating analytics data collection and provide an in-Game setting to withdraw that consent at any time. Withdrawing consent stops further data collection and, on request, triggers deletion of previously collected data associated with your installation.
 
 ### Data Collected via Distribution and Identity Platforms
 
 When you play a VRTogether Game, we may receive certain data from the platform on which you obtained or are running the Game — for example, the Meta Horizon Platform, Steam, or another distribution or identity platform. The specific data depends on the platform but typically includes:
 
-- A persistent **platform user identifier** (such as a Meta-issued user ID, a Steam ID, or an equivalent identifier from another platform) that allows us to recognize you across sessions;
+- A persistent **platform user identifier** (such as a Meta-issued App-Scoped User ID, a Steam ID, or an equivalent identifier from another platform) that allows us to recognize you across sessions;
 - Where the platform provides one and you have consented, your **platform display name**;
 - A **one-time authentication token, ticket, or proof** issued by the platform and used solely to verify with that platform that the account presented at sign-in is valid.
 
@@ -34,12 +36,20 @@ Some platforms (such as Meta Horizon for apps within the same developer organiza
 
 We use this data to authenticate you, save your in-game progress, and enable features that require account identity (such as multiplayer matchmaking and cross-game features within VRTogether). We do not share platform-provided identifiers with third parties for marketing purposes. We never receive your platform account password or your platform payment information.
 
+### Information Collected by In-Game Features
+
+Certain Games include features that collect or transmit additional information while you use them. Where you do not use a feature, the associated data is not collected.
+
+- **Voice communication (Cozy Worlds Together, Rope Up, and other multiplayer Games):** When you speak in a multiplayer voice channel, your microphone audio is captured and transmitted in real time to other Players in the same session through Photon Voice, operated by Exit Games GmbH ("Photon"). Photon also receives a session identifier and your IP address as required to route the audio. Voice audio is not recorded or stored by us; Photon transmits the audio packets to recipients in the session and does not retain them after transmission.
+- **In-Game screen capture and recording (Cozy Worlds):** Cozy Worlds includes an in-Game capture feature provided by the LIV Capture Kit, operated by LIV Inc. ("LIV"). When the feature is active, LIV may transmit operational telemetry to LIV's servers, including a per-device installation identifier, the application identifier, application and engine versions, render pipeline and graphics API in use, and event metadata indicating when the capture feature is initialized or used. LIV does not receive your name, email address, or platform account credentials from us.
+
 ## How We Use Collected Information
 
 We collect and use Player information for the following purposes:
 
 - **To run, operate, and improve the Games and our other services.** We use information about your gameplay to identify problems, deliver updates, and improve the Games.
 - **To authenticate accounts and save progress.** Identifiers from distribution and identity platforms are used solely to recognize returning players and persist their saved worlds and progress.
+- **To enable in-Game features.** Voice audio is used to enable real-time communication between Players in the same session. Capture and recording metadata is used to operate the capture feature.
 - **To improve customer service.** Information you provide helps us respond to support requests more efficiently.
 - **To research and analyze gameplay in aggregate.** We use anonymized information to understand how Players use the Games as a group and to evaluate our marketing and business efforts.
 - **To send Players opt-in communications.** Where you have opted in, we use your contact information to send updates, news, and marketing information about VRTogether and our Games.
@@ -53,8 +63,11 @@ We share data only with:
 
 1. **Infrastructure providers** that we use to operate the Games. Currently this includes Railway (backend hosting) and Amazon Web Services (save-data storage).
 2. **Distribution and identity platforms** that you have chosen to use to access the Games (such as the Meta Horizon Platform or Steam), strictly to authenticate your account and operate platform-required features.
-3. **Email service providers** used to deliver newsletters you have opted in to. Currently this includes Mailchimp.
-4. **Parties legally entitled to receive the information** under the legal-disclosure conditions described above.
+3. **Analytics providers** that help us understand aggregated gameplay patterns. Currently this is Unity Technologies (Unity Gaming Services Analytics).
+4. **Real-time voice and networking providers** that enable multiplayer features. Currently this is Exit Games GmbH (Photon Voice and Photon Fusion), used in Cozy Worlds Together and Rope Up.
+5. **In-Game capture providers**, currently LIV Inc. (LIV Capture Kit), used in Cozy Worlds to power the in-Game capture feature.
+6. **Email service providers** used to deliver newsletters you have opted in to. Currently this includes Mailchimp.
+7. **Parties legally entitled to receive the information** under the legal-disclosure conditions described above.
 
 We **do not sell** personal information to third parties, and we do not share personal information for cross-context behavioral advertising.
 
@@ -64,7 +77,9 @@ We retain personal information only for as long as is necessary to provide you w
 
 - **Account and saved-world data:** retained for as long as your account remains active and for up to thirty (30) days after a verified deletion request, after which it is permanently deleted unless we are required by law to retain it longer.
 - **Email-list data:** retained until you unsubscribe, after which it is deleted from our active mailing systems within thirty (30) days.
-- **Anonymous gameplay analytics:** retained in aggregate form and may be retained indefinitely because the data does not identify individual Players.
+- **Anonymous gameplay analytics:** retained in aggregate form by Unity Gaming Services Analytics in accordance with Unity's retention policies, and may be retained indefinitely because the data does not identify individual Players.
+- **In-Game voice audio:** not retained — transmitted in real time only.
+- **In-Game capture telemetry:** retained by LIV in accordance with LIV's own retention policies. We do not retain a copy of LIV capture telemetry on our own servers.
 - **Customer-support correspondence:** retained for up to two (2) years from the last interaction so we can reference prior issues if you contact us again.
 
 ## How We Protect Your Information
@@ -104,7 +119,7 @@ If you are a resident of the EEA, the UK, or Switzerland, you have the following
 - **Right to withdraw consent:** where we rely on consent, you may withdraw it at any time without affecting the lawfulness of prior processing.
 - **Right to lodge a complaint:** with the data protection authority in your country of residence.
 
-The legal bases on which we rely for processing your data are: (a) **performance of a contract** (operating the Games and providing the services you request); (b) **legitimate interests** (improving the Games, security, fraud prevention); (c) **consent** (marketing communications, optional features); and (d) **legal obligation** (responding to lawful requests).
+The legal bases on which we rely for processing your data are: (a) **performance of a contract** (operating the Games and providing the services you request); (b) **legitimate interests** (improving the Games, security, fraud prevention); (c) **consent** (analytics collection where required, marketing communications, optional features); and (d) **legal obligation** (responding to lawful requests).
 
 To exercise any of these rights, contact us at info@vrtogether.us. We will respond within the timeframes required by applicable law (generally one month under GDPR).
 
@@ -119,7 +134,7 @@ If you are a California resident, you have the following rights:
 - **Right to opt out of sale or sharing** of your personal information. As stated above, **VRTogether does not sell or share personal information for cross-context behavioral advertising.**
 - **Right to non-discrimination** for exercising any of these rights.
 
-The categories of personal information we collect are: **identifiers** (name, email, IP address, platform-issued identifiers); **commercial information** (account history, purchases, if any); **internet or network activity** (gameplay metrics, log data); and **inferences** drawn from the above (preferences, gameplay patterns).
+The categories of personal information we collect are: **identifiers** (name, email, IP address, platform-issued identifiers, Unity Player ID, per-device installation identifiers); **commercial information** (account history, purchases, if any); **internet or network activity** (gameplay metrics, log data); **audio information** (real-time voice communication in multiplayer Games, transmitted but not retained); and **inferences** drawn from the above (preferences, gameplay patterns).
 
 To exercise any of these rights, contact us at info@vrtogether.us. We will verify your identity before responding and will respond within the 45-day window required by the CCPA.
 
@@ -157,3 +172,4 @@ If you have any questions or concerns about this Privacy Policy or how we handle
 
 - **Email:** info@vrtogether.us
 - **Mailing address:** RalphVR Inc., 348 E Main Street, Lexington, KY 40507, United States
+
