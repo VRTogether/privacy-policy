@@ -1,6 +1,6 @@
 # VRTogether Privacy Policy
 
-**Last Updated: May 11, 2026**
+**Last Updated: May 13, 2026**
 
 ## Scope
 
@@ -28,7 +28,7 @@ Where required by applicable law (including the GDPR in the European Economic Ar
 
 When you play a VRTogether Game, we may receive certain data from the platform on which you obtained or are running the Game — for example, the Meta Horizon Platform, Steam, or another distribution or identity platform. The specific data depends on the platform but typically includes:
 
-- A persistent **platform user identifier** (such as a Meta-issued App-Scoped User ID, a Steam ID, or an equivalent identifier from another platform) that allows us to recognize you across sessions;
+- A persistent platform user identifier — referred to as USER_ID in Meta's Data Use Checkup, and known as the App-Scoped User ID on the Meta Horizon Platform, the Steam ID on Steam, or an equivalent identifier on other platforms — that allows us to recognize you across sessions and save your in-game progress;
 - Where the platform provides one and you have consented, your **platform display name**;
 - A **one-time authentication token, ticket, or proof** issued by the platform and used solely to verify with that platform that the account presented at sign-in is valid.
 
@@ -81,6 +81,16 @@ We retain personal information only for as long as is necessary to provide you w
 - **In-Game voice audio:** not retained — transmitted in real time only.
 - **In-Game capture telemetry:** retained by LIV in accordance with LIV's own retention policies. We do not retain a copy of LIV capture telemetry on our own servers.
 - **Customer-support correspondence:** retained for up to two (2) years from the last interaction so we can reference prior issues if you contact us again.
+
+## Data Deletion Requests
+
+You may request deletion of the personal information we hold about you at any time, regardless of where you reside. To submit a deletion request:
+
+Email us at info@vrtogether.us with the subject line "Data Deletion Request."
+Include the platform on which you play (for example, Meta Horizon or Steam) and, if known, your in-game display name or platform user identifier, so that we can locate the correct records.
+
+Upon receiving a verified request, we will delete the personal information associated with your account within thirty (30) days, except where we are required by law to retain specific records. Deletion includes saved-world data, account records, and platform-issued identifiers stored on our systems. Anonymous, aggregated analytics data that does not identify you personally may be retained.
+If you play on the Meta Horizon Platform, you may also initiate a deletion request by uninstalling the Game and submitting a request through Meta's account tools; Meta will forward the request to us and we will process it as described above.
 
 ## How We Protect Your Information
 
@@ -144,7 +154,7 @@ Under California's "Shine the Light" law, California residents who provide perso
 
 ### Do Not Track
 
-We do not collect personally identifiable information about Players' online activities over time and across third-party websites or online services. Because of this, the Games do not currently respond to "Do Not Track" signals.
+The Games do collect personal information as described elsewhere in this Policy (including platform-issued identifiers such as the Meta App-Scoped User ID). However, we do not track Players' activity over time across third-party websites or online services, and we do not build cross-site behavioral profiles. Because the Games do not engage in cross-site tracking, they do not currently respond to browser "Do Not Track" signals.
 
 ### All Other Players
 
